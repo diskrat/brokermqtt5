@@ -9,9 +9,9 @@ client.on("connect", function () {
   });
 
   /* Non-shared subscription */
-  // client.subscribe("my-non-shared-topic", (err) => {
-  //   if (err) console.error(err);
-  // });
+  //   client.subscribe("my-non-shared-topic", (err) => {
+  //     if (err) console.error(err);
+  //   });
 });
 
 client.on("message", function (topic, message) {
